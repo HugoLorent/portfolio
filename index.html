@@ -5,25 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <a class="nav-item" href="#welcome-section">A propos de moi</a>
-        <a class="nav-item" href="#projects">Mes projets</a>
-        <a class="nav-item" href="#contact">Contact</a>
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">A propos de moi</a>
+          </li>
+          <li>
+            <a href="#projects">Mes projets</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <section id="welcome-section">
-        <h1>Bienvenue</h1>
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Hugo Lorent</p>
       </section>
       <section id="projects">
-        <h2>Mes projets</h2>
-        <a id="project-tile" href="">one project</a>
+        <h1>Mes projets</h1>
+          <div class="lds-facebook"><div></div><div></div><div></div></div>
+        </div>
       </section>
       <section id="contact">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
+        <div class="contact-links">
+          <a
+            id="profile-link"
+            href="https://github.com/HugoLorent"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i>Github</a
+          >
+          <a
+            href="https://www.linkedin.com/in/hugo-lorent-351863174/"
+            class="btn contact-details"
+            ><i class="fab fa-linkedin"></i>Linkedin</a
+          >
+          <a href="mailto:hugo.lorent@outlook.com" class="btn contact-details"
+            ><i class="fas fa-at"></i>Envoyer un mail</a
+          >
+        </div>
       </section>
     </main>
   </body>
